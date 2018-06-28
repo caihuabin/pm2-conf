@@ -1,0 +1,25 @@
+{
+  "name": "pm2-conf",
+  "version": "0.1.7",
+  "description": "Make the configuration of pm2 smarter",
+  "keywords": [
+    "pm2",
+    "shell",
+    "pm2-conf"
+  ],
+  "dependencies": {
+    "pm2": "^2.4.0"
+  },
+  "devDependencies": {},
+  "files": [
+    "bin/*"
+  ],
+  "bin": {
+    "pm2-conf": "bin/pm2-conf.sh"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "caihuabin",
+  "license": "ISC"
+}
